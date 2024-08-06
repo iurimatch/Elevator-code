@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elevator Simulation</title>
+  <link rel="stylesheet" href="styles.css">
+  <script async src="app.js"></script>
+  
+</head>
+<body>
+  <div class="building">
+    <div class="monitor" id="monitor">1</div>
+    
+    <div class="wrapperlifti">
+        <div class="floor-buttons">
+           
+            <button id="floor-8" onclick="goToFloor(8)">8</button>
+            <button id="floor-7" onclick="goToFloor(7)">7</button>
+            <button id="floor-6" onclick="goToFloor(6)">6</button>
+            <button id="floor-5" onclick="goToFloor(5)">5</button>
+            <button id="floor-4" onclick="goToFloor(4)">4</button>
+            <button id="floor-3" onclick="goToFloor(3)">3</button>
+            <button id="floor-2" onclick="goToFloor(2)">2</button>
+            <button id="floor-1" onclick="goToFloor(1)">1</button>
+          </div>
+        <div class="elevator-shaft">
+        <div class="elevator" id="elevator">Closed</div>
+        </div>
+</div>
+    <div class="control-buttons">
+      <button onclick="openDoors()" class="controlb">Open Doors</button>
+      <button onclick="closeDoors()" class="controlb">Close Doors</button>
+      
+    </div>
+  </div>
+
+  <script>
+    
+  </script>
+</body>
+</html>
